@@ -4,7 +4,7 @@
 #include "util.h"
 #include "hw_config.h"
 #include "systick.h"
-#include "util.h"
+//#include "util.h"
 #include "usr_config.h"
 #include "drv8323.h"
 #include "pwm_curr_fdbk.h"

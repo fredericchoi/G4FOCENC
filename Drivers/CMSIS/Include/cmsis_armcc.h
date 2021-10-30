@@ -24,6 +24,7 @@
 
 #ifndef __CMSIS_ARMCC_H
 #define __CMSIS_ARMCC_H
+#include "stdint.h"
 
 
 #if defined(__ARMCC_VERSION) && (__ARMCC_VERSION < 400677)

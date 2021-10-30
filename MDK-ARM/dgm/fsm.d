@@ -1,7 +1,10 @@
 dgm\fsm.o: ..\Core\Src\fsm.c
 dgm\fsm.o: ../Core/Inc/fsm.h
 dgm\fsm.o: ../Core/Inc/main.h
-dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+dgm\fsm.o: ../Core/Inc/stm32g4xx_hal_conf.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 dgm\fsm.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
 dgm\fsm.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
 dgm\fsm.o: ../Drivers/CMSIS/Include/core_cm4.h
@@ -11,6 +14,22 @@ dgm\fsm.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 dgm\fsm.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 dgm\fsm.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 dgm\fsm.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+dgm\fsm.o: D:\Program Files (x86)\KEIL5\ARM\ARMCC\Bin\..\include\stddef.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
+dgm\fsm.o: ../Core/Inc/flash.h
+dgm\fsm.o: ../Core/Inc/main.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h
 dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dmamux.h
 dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h
 dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h
@@ -38,7 +57,6 @@ dgm\fsm.o: ../Core/Inc/calibration.h
 dgm\fsm.o: ../Core/Inc/anticogging.h
 dgm\fsm.o: ../Core/Inc/drv8323.h
 dgm\fsm.o: ../Core/Inc/fdcan.h
-dgm\fsm.o: ../Core/Inc/stm32g4xx_hal_fdcan.h
-dgm\fsm.o: ../Core/Inc/systick.h
+dgm\fsm.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h
 dgm\fsm.o: ../Core/Inc/util.h
 dgm\fsm.o: D:\Program Files (x86)\KEIL5\ARM\ARMCC\Bin\..\include\string.h

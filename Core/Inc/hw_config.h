@@ -8,5 +8,6 @@
 #define PWM_ARR		3400           	// 25KHz
 #define DT			0.00004f		// 40us
 #define CURRENT_MEAS_HZ		(1.0f / DT)
+#define HSI  //Oscilator Freq OS24M, OS8M, HSI
 
 #endif

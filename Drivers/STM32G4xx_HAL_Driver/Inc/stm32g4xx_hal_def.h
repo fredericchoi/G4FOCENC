@@ -31,6 +31,7 @@ extern "C" {
 #include "Legacy/stm32_hal_legacy.h"  /* Aliases file for old names compatibility */
 #include <stddef.h>
 
+
 /* Exported types ------------------------------------------------------------*/
 
 /**
@@ -195,3 +196,4 @@ typedef enum
 #endif /* ___STM32G4xx_HAL_DEF */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+

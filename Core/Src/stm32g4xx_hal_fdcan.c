@@ -166,7 +166,7 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32g4xx_hal_fdcan.h"
+#include "stm32g4xx_hal_fdcan_.h"
 
 #if defined(FDCAN1)
 

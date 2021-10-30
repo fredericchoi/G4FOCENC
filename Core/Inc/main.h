@@ -7,6 +7,12 @@ extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
+	
+#include "stm32g4xx_hal.h"	
+//#include "stm32g4xx_hal_dma.h"	
+//#include "stm32g4xx_hal_i2c.h"	
+//#include "stm32g4xx_hal_conf.h"		
+	
 #include "stm32g4xx_ll_dma.h"
 #include "stm32g4xx_ll_rcc.h"
 #include "stm32g4xx_ll_bus.h"
@@ -22,6 +28,8 @@ extern "C" {
 #include "stm32g4xx_ll_tim.h"
 #include "stm32g4xx_ll_adc.h"
 
+
+	
 #include <stdio.h>
 #include <stdlib.h>
 

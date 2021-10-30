@@ -77,6 +77,9 @@ void PendSV_Handler(void)
 void SysTick_Handler(void)
 {
 	SysTickCnt ++;
+
+  HAL_IncTick();  //uwTick, HAL_Delay();
+
 }
 
 /**
