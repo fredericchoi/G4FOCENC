@@ -25,4 +25,7 @@ extern tEncoder Encoder;
 void ENCODER_init(void);
 void ENCODER_sample(float dt);
 
+static inline uint16_t MA730_read_raw(void);
+//uint16_t Spi3_Test_Transmit(uint16_t data);
+
 #endif

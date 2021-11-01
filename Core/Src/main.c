@@ -43,7 +43,7 @@ int main(void)
 	/* OLED CODE */
 	HAL_Delay(1000);
 	OLED_Init();
-	OLED_Fill(0x00);//È«ÆÁÃð
+	OLED_Fill(0x00);// all screem light off
 	HAL_Delay(2000);
 	OLED_ShowStr(0,1,"HAL_Delay()" ,2);//²âÊÔ6*8×Ö·û
 	
@@ -51,7 +51,7 @@ int main(void)
 	UART_init(115200);
 #endif
 	ENCODER_init();		// Encoder chip power up time 260ms
-//	PWMC_init();
+	PWMC_init();
 //	if(0 != DRV8323_init()){
 //		DEBUG("\n\rDRV8323 init fail!\n\r");
 //		while(1);
@@ -79,6 +79,8 @@ int main(void)
 		LED_loop();
 		FDCAN_timeout_check_loop();
 		ANTICOGGING_loop(&Controller);
+		
+		HAL_Delay(1);
 	}
 }
 

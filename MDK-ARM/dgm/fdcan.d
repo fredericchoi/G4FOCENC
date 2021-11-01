@@ -56,3 +56,4 @@ dgm\fdcan.o: ../Core/Inc/encoder.h
 dgm\fdcan.o: ../Core/Inc/usr_config.h
 dgm\fdcan.o: ../Core/Inc/drv8323.h
 dgm\fdcan.o: ../Core/Inc/util.h
+dgm\fdcan.o: ../Core/Inc/systick.h

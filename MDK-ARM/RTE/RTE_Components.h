@@ -4,7 +4,7 @@
  *      *** Do not modify ! ***
  *
  * Project: 'dgm' 
- * Target:  'dgm' 
+ * Target:  'G4I2C3' 
  */
 
 #ifndef RTE_COMPONENTS_H

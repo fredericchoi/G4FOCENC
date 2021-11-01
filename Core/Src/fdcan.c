@@ -7,6 +7,7 @@
 #include "usr_config.h"
 #include "drv8323.h"
 #include "util.h"
+#include "systick.h"
 
 FDCAN_HandleTypeDef hfdcan1;
 
